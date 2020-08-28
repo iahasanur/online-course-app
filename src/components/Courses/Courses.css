@@ -1,0 +1,21 @@
+.courses-container1{
+    display:flex;
+}
+.courses-list{
+    display: grid;
+    border: 1px solid white;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap:30px 30px;
+    margin: 10px 10px;
+    background: whitesmoke;
+    
+    
+}
+.courses-cart{
+    margin: 20px 10px;
+    border: 2px solid white;
+}
+
+
+

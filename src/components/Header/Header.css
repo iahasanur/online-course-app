@@ -1,0 +1,16 @@
+.container {
+    border:2px solid black;
+    width: 95%;
+    margin: 10px auto;
+    border: 2px solid white;
+    background: white;
+    text-align: center;
+    box-shadow: 10px 10px 30px  rgba(240, 236, 231, 1);
+  }
+  .header-title2{
+    color:rgba(41, 70, 165, 0.705);
+  }
+  .header-title1 {
+    color: black;
+  
+  }

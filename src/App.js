@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/Header/Header';
+import { Container } from 'react-bootstrap';
+import Courses from './components/Courses/Courses';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Cart from './components/Cart/Cart';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={Container}>
+      <Header></Header>
+      <div class = "navigation">
+      <nav>
+        <a href = "/Courses" >Courses</a>
+        <a href= "/Course" >Course </a>
+        <a href="/Cart" > Cart</a>
+        
+.      </nav>
+      </div>  
+
+      <Courses></Courses>
     </div>
   );
 }

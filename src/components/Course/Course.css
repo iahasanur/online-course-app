@@ -1,0 +1,7 @@
+.course{
+    border: 2px solid white;
+    background-color:peachpuff;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 10px;
+    color: black;
+}
